@@ -1,0 +1,26 @@
+RxJava has 4 Main components:
+1) Observables
+2) Observers
+3) Schedulers
+4) Operators
+
+
+1) Observables
+    a. Observable has stream or sequence of data/items that it emits
+    b. Observer subscribes to Observable and reacts when data/item is emitted
+    c. There are different types of Observables
+        Observable
+        Single
+        Maybe
+        Completable
+        Flowable
+    d. There are various ways to create an Observable
+        create()
+        just()
+        defer()
+        empty()
+        never()
+        interval()
+        fromIterable()
+        fromCallable()
+        etc.
